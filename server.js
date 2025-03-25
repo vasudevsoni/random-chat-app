@@ -242,7 +242,7 @@ server.on("error", (error) => {
 
 // Start the server with error handling
 try {
-  server.listen(5000, () => console.log("🚀 Server running on port 5000"));
+  server.listen(3000, () => console.log("🚀 Server running on port 5000"));
 } catch (error) {
   console.error("Failed to start server:", error);
 }
