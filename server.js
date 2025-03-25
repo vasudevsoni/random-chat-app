@@ -242,9 +242,5 @@ server.on("error", (error) => {
 });
 
 // Start the server with error handling
-const PORT = process.env.PORT || 3000;
-try {
-  server.listen(PORT, () => console.log("🚀 Server running on port 3000"));
-} catch (error) {
-  console.error("Failed to start server:", error);
-}
+const PORT = process.env.PORT || 10000;
+server.listen(PORT, () => console.log(`🚀 Server running on port ${PORT}`));
