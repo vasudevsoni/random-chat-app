@@ -254,7 +254,10 @@ function ChatPage() {
               <span>Partner is typing...</span>
             </div>
           )}
-          <Button variant="danger" onClick={() => (window.location.href = "/")}>
+          <Button
+            variant="danger"
+            onClick={() => (window.location.href = "/random-chat-app")}
+          >
             Exit
           </Button>
         </div>
